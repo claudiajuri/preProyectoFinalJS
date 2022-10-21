@@ -144,6 +144,7 @@ const obtenerProductosLocalStorage = () =>{
         productoLS= JSON.parse(localStorage.getItem('elementosCarrito'));
     }
     return productoLS
+    //console.log(productoLS);
 }
 
 //Almacenar en el LS
